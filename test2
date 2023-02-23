@@ -32,3 +32,23 @@ let mes = (idade*12);
 let diaas =(idade*365);
 let semananas = (idade*52.143);
 console.log("você ta vivo a", idade,"anos", mes,"meses", semananas,"semanas", diaas, "dias");
+
+3
+const aanono = 2000;
+const hoje = 2023;
+const futuro = 2002-2023;
+const futuro_e_p = futuro+11;
+console.log(aanono-hoje, futuro_e_p);
+
+1
+let A = 5;
+let B = 6;
+console.log("A", B, "B", A);
+
+2
+let salario = 2000;
+let acrecimo = 25;
+let porcentagem = salario*acrecimo;
+let almento = porcentagem/100;
+let salatual = almento+salario;
+console.log("salario antigo:", salario, "almento de:", acrecimo, "foi pra:", salatual);
