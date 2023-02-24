@@ -52,3 +52,11 @@ let porcentagem = salario*acrecimo;
 let almento = porcentagem/100;
 let salatual = almento+salario;
 console.log("salario antigo:", salario, "almento de:", acrecimo, "foi pra:", salatual);
+
+10
+let altura = 5;
+let largura = 5;
+let area = altura*largura;
+let tinta = area/2;
+console.log(area);
+console.log(tinta);
