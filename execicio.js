@@ -53,6 +53,7 @@ let almento = porcentagem/100;
 let salatual = almento+salario;
 console.log("salario antigo:", salario, "almento de:", acrecimo, "foi pra:", salatual);
 
+10
 let alltura = 5;
 let largura = 5;
 let area = alltura*largura;
