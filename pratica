@@ -1,0 +1,37 @@
+// case, switch, braek 
+
+
+let test = "diretor";
+switch(test){
+case "gerent": 
+console.log(`otimo ${test} otimo`);
+break;
+
+case "comum":
+console.log(`você ${comum}`);
+break;
+
+case "diretor":
+console.log(`promo ${diretor}`);
+break;
+default:
+    console.log("não existe")
+}
+
+calculadora
+let n1, n2, operaçâo = 0;
+let opçâo = 1
+
+switch(opçâo){
+case 1:
+    n1 = 1;
+    n2 = 2;
+    operaçâo = n1 + n2
+    console.log(`a soma e de ${operaçâo}`);
+    break
+
+
+
+
+
+}
