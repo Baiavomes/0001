@@ -1,0 +1,19 @@
+// case, switch, braek 
+
+
+let test = "diretor";
+switch(test){
+case "gerent": 
+console.log(`otimo ${test} otimo`);
+break;
+
+case "comum":
+console.log(`você ${comum}`);
+break;
+
+case "diretor":
+console.log(`promo ${diretor}`);
+break;
+default:
+    console.log("não existe")
+}
