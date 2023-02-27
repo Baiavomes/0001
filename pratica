@@ -46,6 +46,12 @@ idade: 21,
 pais: "brasil",
 
 }
+
+
+
+
+
+// OBJETO
 console.log(pessoa);
 console.log(pessoa.idade);
 pessoa.nome = "baia";
@@ -57,6 +63,7 @@ for( let t = 1; t < 11; t++ ){
 }
 
 
+// MEDIA
 let nota = [10, 7, 5]
 let soma = nota[0]+nota[1]+nota[2]
 let media = soma/nota.length
@@ -66,14 +73,9 @@ console.log(media)
 
 
 }
-let menor, meio, maior;
-if((nn1<nn2) && (nn1<nn3){
-    menor = nn1;
-    if(nn2<nn3){
-        meio = nn2;
-        maior = nn3;
-    }else{
-        meio = nn3;
-        maior = nn2;
-    }
-})
+
+//  ARRAY
+let nota = [10, 7, 5]
+let soma = nota[0]+nota[1]+nota[2]
+let media = soma/nota.length
+console.log(media)
