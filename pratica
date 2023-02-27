@@ -92,3 +92,9 @@ console.log(critica);
 critica.nome = "um outro filme";
 critica.genero = "aventura"
 console.log(critica);
+
+
+// ARRAY
+let teto = ["test", "test2",  "test3"];
+let copia = teto.slice()[0];
+console.log(copia);
