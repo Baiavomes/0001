@@ -79,3 +79,16 @@ let nota = [10, 7, 5]
 let soma = nota[0]+nota[1]+nota[2]
 let media = soma/nota.length
 console.log(media)
+
+// OBJETO PART 2
+let critica ={
+    nome: "o filme",
+    nota: 6,
+    genero: "",
+
+
+}
+console.log(critica);
+critica.nome = "um outro filme";
+critica.genero = "aventura"
+console.log(critica);
