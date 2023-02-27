@@ -35,3 +35,14 @@ case 1:
 
 
 }
+let menor, meio, maior;
+if((nn1<nn2) && (nn1<nn3){
+    menor = nn1;
+    if(nn2<nn3){
+        meio = nn2;
+        maior = nn3;
+    }else{
+        meio = nn3;
+        maior = nn2;
+    }
+})
