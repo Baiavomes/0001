@@ -29,7 +29,38 @@ case 1:
     operaçâo = n1 + n2
     console.log(`a soma e de ${operaçâo}`);
     break
+let menor, meio, maior;
+if((nn1<nn2) && (nn1<nn3){
+    menor = nn1;
+    if(nn2<nn3){
+        meio = nn2;
+        maior = nn3;
+    }else{
+        meio = nn3;
+        maior = nn2;
+    }
+})
+let pessoa = {
+nome: "daniel",
+idade: 21,
+pais: "brasil",
 
+}
+console.log(pessoa);
+console.log(pessoa.idade);
+pessoa.nome = "baia";
+console.log(pessoa.nome);
+
+let j = 5
+for( let t = 1; t < 11; t++ ){
+    console.log(t * j);
+}
+
+
+let nota = [10, 7, 5]
+let soma = nota[0]+nota[1]+nota[2]
+let media = soma/nota.length
+console.log(media)
 
 
 
