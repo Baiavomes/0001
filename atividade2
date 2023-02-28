@@ -1,0 +1,89 @@
+// 1
+let nota1 = 10;
+let nota2 = 10;
+let media = (nota1 + nota2)/2;
+console.log(media);
+
+if(media < 7 || media ==9){
+    console.log(`reprovado`)
+
+}else if(media == 10){
+    console.log(`Aprovado com Distinção`)
+}else{
+    console.log(`aprovado`)
+};
+
+
+
+
+// 2
+let n = 54;
+if(n%2==0){
+    console.log(`par`)
+}if(n%2==1){
+    console.log(`impar`)
+};
+
+
+
+
+// 9
+dia = 6
+if(dia<1 || dia>31 ){
+    console.log(`inválido`)
+}else{
+    console.log(`certo`)};
+
+    mes = 3
+    if(mes<1 || mes >12){
+        console.log(`inválido`)
+    }else{
+        console.log(`certo`)
+    };
+
+    let ano = 2022
+    if(ano>2023){
+        console.log(`inválido`)
+    }else{
+        console.log(`certo`)
+    };
+
+
+    // 8
+    let idadee = 85
+    if(idadee<18 || idadee>67){
+        console.log(`voce nao pode doar`)
+    }else{
+        console.log(`voce pode doar`)
+    }
+
+
+    //4
+  let x = 4.5;
+  if(x%1 === 0)
+  {
+    console.log(`e inteiro`)
+  }else{
+    console.log(`nao inteiro`)
+  }
+    
+
+
+  //5
+  let jj = 6;
+if(jj%2==0){
+    console.log(`par`)
+}if(jj%2==1){
+    console.log(`impar`)
+};
+if(jj%1 === 0)
+{
+  console.log(`e inteiro`)
+}else{
+  console.log(`nao inteiro`)
+}
+  if(jj>1){
+    console.log(`positivo`)
+  }else{
+    console.log(`negativo`)
+  }
