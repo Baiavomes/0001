@@ -98,3 +98,15 @@ console.log(critica);
 let teto = ["test", "test2",  "test3"];
 let copia = teto.slice()[0];
 console.log(copia);
+
+// FOR 01
+let cores =['azul', 'amarelo']
+for(let i in cores){
+    console.log(cores[i]);
+}
+
+
+// FOR 02
+for(let cor of cores){
+    console.log(cor)
+};
