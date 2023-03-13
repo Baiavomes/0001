@@ -121,3 +121,21 @@ for(let cor of cores){
               //   soma1 = soma1 + array[i]
               // }
               // console.log(soma1)
+
+
+
+
+// FUNÇÃO CALLBACK   // API
+function exibirMensagem(arg){
+  console.log("")
+  console.log(`Resultado : " ${arg} "`);
+}
+
+async function DadosApi(api, callback){
+  const resultados = await fetch(api);
+  const dados = await resultados.json();
+  callback(dados.value);
+ 
+}
+
+DadosApi('https://api.chucknorris.io/jokes/random', exibirMensagem);
