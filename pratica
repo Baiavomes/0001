@@ -139,3 +139,17 @@ async function DadosApi(api, callback){
 }
 
 DadosApi('https://api.chucknorris.io/jokes/random', exibirMensagem);
+
+
+
+
+//  CALLBACK
+
+// function exibir(arg){
+//   console.log(arg + 1);
+// }
+
+// function pegarString(a, exibir){
+//   exibir(a);
+// }
+// pegarString("joao", exibir);
