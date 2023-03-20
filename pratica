@@ -153,3 +153,15 @@ DadosApi('https://api.chucknorris.io/jokes/random', exibirMensagem);
 //   exibir(a);
 // }
 // pegarString("joao", exibir);
+
+
+
+
+// ARRAY E LET
+// let estados = ["amapa", "sao paulo", " rio de janeiro", "santa catarina"]
+// let resultado = estados.filter((valor) =>{
+//     if(valor.toLocaleLowerCase().charAt() === "s") {
+//         return valor
+//     }
+// })
+// console.log(resultado)
