@@ -165,3 +165,20 @@ DadosApi('https://api.chucknorris.io/jokes/random', exibirMensagem);
 //     }
 // })
 // console.log(resultado)
+
+
+// FUNÇÃO E PROMISE
+
+async function idape(f){
+    return await new Promise ((resolve, reject) =>{
+        const pessoas = [{nome:"joão", idade:17}, {nome:"dive", idade:18}, {nome:"bia", idade:21}, {nome:"ada", idade:16},]
+        let guarida = [];
+        for (let i of pessoas) {
+            if(i.idade  >= 18 ){
+                guarida.push(i.idade);
+            }
+        }
+        resolve(guarida);
+    })
+}
+idape().then(resposta => console.log(resposta)).catch(error => console.error(error));
