@@ -187,3 +187,9 @@ idape().then(resposta => console.log(resposta)).catch(error => console.error(err
 
 //API
 https://jsonplaceholder.typicode.com/posts
+
+
+//NUMEROS ALEATORIOS
+
+const numeroaleatorio = Math.floor(Math.random()* 20) +1
+console.log(numeroaleatorio)
