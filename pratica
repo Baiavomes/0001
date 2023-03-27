@@ -182,3 +182,8 @@ async function idape(f){
     })
 }
 idape().then(resposta => console.log(resposta)).catch(error => console.error(error));
+
+
+
+//API
+https://jsonplaceholder.typicode.com/posts
