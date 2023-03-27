@@ -193,3 +193,7 @@ https://jsonplaceholder.typicode.com/posts
 
 const numeroaleatorio = Math.floor(Math.random()* 20) +1
 console.log(numeroaleatorio)
+
+
+//TIPOS DE FOR 
+let i of CONDI
